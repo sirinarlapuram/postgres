@@ -584,6 +584,8 @@ PostmasterMain(int argc, char *argv[])
 
 	InitProcessGlobals();
 
+	sleep(60);
+
 	PostmasterPid = MyProcPid;
 
 	IsPostmasterEnvironment = true;
